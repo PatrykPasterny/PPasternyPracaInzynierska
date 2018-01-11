@@ -1,15 +1,16 @@
 ###-------------------------------------------------------------------
 #
 """ 
-   --> scrypt make TH1F histos from TH3D charts and project it on choosen axes.
+   --> scrypt make TH1F histos from TH3D charts and projected on each axis.
 """
 #
 #  @Patryk Pasterny
 #  
 #To use type:
-#python th3d2th1f.py file.root rpz/xyz 
+#python th3d2th1f.py file.root rpz   - if you want to project it on RPhiZ axes.
+#python th3d2th1f.py file.root xyz   - if you want to project it on XYZ axes.
 #in console, where:
-#particle.root is ROOTfile with USRBIN TH3D chart.
+#file.root is ROOTfile with USRBIN TH3D chart.
 ###----------------------------------------------------------------------
 # import section
 
