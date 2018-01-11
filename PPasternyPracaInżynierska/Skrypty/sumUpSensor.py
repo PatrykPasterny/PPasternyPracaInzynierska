@@ -1,7 +1,7 @@
 ###-------------------------------------------------------------------
 #
 """ 
-   --> scrypt sum up bins data from 4 histos
+   --> script sum up data in bins for 4 VELO sensors and saves histograms with dPhi/dE for 4 particles: kaons, pions, protons, neutrons.
 """
 #
 #  @Patryk Pasterny
