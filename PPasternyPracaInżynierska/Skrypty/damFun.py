@@ -1,7 +1,7 @@
 ###-------------------------------------------------------------------
 #
 """ 
-   --> scrypt convert USRTRAC of certain particle into it's neq	equality
+   --> script convert USRTRAC of certain particle into it's neq equality
 """
 #
 #  @Patryk Pasterny
@@ -10,7 +10,7 @@
 #python e2neq.py  particle.root particle.txt
 #in console, where:
 #particle.txt is file with particle damage function
-#particle.root is ROOTfile with USRTRAC TH1F histos of dN/dE
+#particle.root is ROOTfile with USRTRAC TH1F histos of dPhi/dE
 ###----------------------------------------------------------------------
 # import section
 
