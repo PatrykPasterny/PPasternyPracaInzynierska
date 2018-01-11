@@ -10,7 +10,11 @@
 """
 #
 #  @Agnieszka Oblakowska-Mucha
+#  @Patryk Pasterny
 #  @Tomasz Szumlak
+#
+#  Run it using:
+#  python sf2rconverter -p path_With_FLUKA_Files -n name_Of_FLUKA_File
 #
 ###--------------------------------------------------------------------
 
@@ -38,12 +42,6 @@ def main():
    else:
        file = TFile( 'fluka2root.root', 'recreate' )
 
-   # set for apperance
-   #c = TCanvas('USRTRACK CARTESIAN REFERENCE FRAME 2D - XY', 'USRTRACK CARTESIAN REFERENCE FRAME 2D - XY', 670, 400)
-   #gStyle.SetPalette(1)
-   #gStyle.SetOptStat(0)
-   #gStyle.SetOptFit(0)
-
    # make a test plot and store plots in file
    for plot in plots:
        if plot.get_type() == '1DPLOT':
@@ -52,17 +50,9 @@ def main():
                plot.get_histo().Write()
        if plot.get_type() == '2DPLOT':
            if PLOT2D:
-               #gPad.SetLogz()
-               #gPad.SetGridx()
-               #gPad.SetGridy()
-               #plot.get_histo().Draw('P')
                plot.get_histo().Write()
        if plot.get_type() == '3DPLOT':
            if PLOT3D:
-               #gPad.SetLogz();
-               #gPad.SetGridx();
-               #gPad.SetGridy();
-               #plot.get_histo().Draw('P')
                plot.get_histo().Write()
 
 
