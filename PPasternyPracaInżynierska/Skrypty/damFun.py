@@ -6,11 +6,12 @@
 #
 #  @Patryk Pasterny
 # 
-#To use type:
-#python e2neq.py  particle.root particle.txt
-#in console, where:
-#particle.txt is file with particle damage function
-#particle.root is ROOTfile with USRTRAC TH1F histos of dPhi/dE
+#  To use type:
+#  python damFun.py  particle.root particle.txt
+#  in console, where:
+#  particle.txt is file with particle damage function
+#  particle.root is ROOTfile with USRTRAC TH1F histos of dPhi/dE
+#
 ###----------------------------------------------------------------------
 # import section
 
