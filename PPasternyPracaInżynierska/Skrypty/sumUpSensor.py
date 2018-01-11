@@ -1,7 +1,7 @@
 ###-------------------------------------------------------------------
 #
 """ 
-   --> script sum up data in bins for 4 VELO sensors and saves histograms with dPhi/dE for 4 particles: kaons, pions, protons, neutrons.
+   --> script sum up data in bins for 4 VELO sensors and saves histograms with dPhi/dE for 4 particles: kaons, pions, protons, neutrons; to ROOT file.
 """
 #
 #  @Patryk Pasterny
