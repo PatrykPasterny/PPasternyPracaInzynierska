@@ -1,3 +1,15 @@
+ ###-------------------------------------------------------------------
+#
+""" 
+   --> Simply FLUKA to ROOT Converter GUI application
+"""
+#  
+#  @Patryk Pasterny
+#  @Kamil Piastowicz
+#  @Marcin Pajka
+#  
+###--------------------------------------------------------------------
+
 import ROOT
 import matplotlib
 import tkMessageBox
