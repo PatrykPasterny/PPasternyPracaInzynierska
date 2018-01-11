@@ -1,7 +1,7 @@
 ###-------------------------------------------------------------------
 #
 """ 
-   --> scrypt sum up bins data from 4 histos
+   --> scrypt sum up data in bins for 4 particles: kaons, pions, protons and neutrons in 4 VELO sensors
 """
 #
 #  @Patryk Pasterny
