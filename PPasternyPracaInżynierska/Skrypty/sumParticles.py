@@ -1,12 +1,12 @@
 ###-------------------------------------------------------------------
 #
 """ 
-   --> script sum up data in bins for 4 particles: kaons, pions, protons and neutrons and saves histograms with dPhi/dE in 4 sensors to ROOT file
+   --> script sum up data in bins for 4 VELO sensors and saves histograms with dPhi/dE for 4 particles: kaons, pions, protons and neutrons, to ROOT file
 #
 #  @Patryk Pasterny
 # 
 #  Run it using:
-#  python sumUpSensor.py kaons.root pions.root protons.root neutrons.root
+#  python sumParticles.py kaons.root pions.root protons.root neutrons.root
 #  where "particle.root" is ROOT file with histos of certain particle
 #
 ###----------------------------------------------------------------------
