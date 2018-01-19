@@ -7,7 +7,7 @@
 #  @Patryk Pasterny
 # 
 #  Run it using:
-#  python sumUpSensor.py kaons.root pions.root protons.root neutrons.root
+#  python sumUpSensor.py kaonsneq.root pionsneq.root protonsneq.root neutronsneq.root
 #  where "particle.root" is ROOT file with histos of certain particle
 #
 ###----------------------------------------------------------------------
